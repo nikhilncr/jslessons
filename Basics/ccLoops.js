@@ -1,7 +1,7 @@
 var john = {
   name: 'John Smith',
   bills: [124, 48, 268, 180, 42],
-  calsTips: function() {
+  calcTips: function() {
     this.tips = [];
     this.finalAmount = [];
     for (var i = 0; i < this.bills.length; i++) {
@@ -24,7 +24,7 @@ var john = {
 }
 
 
-john.calsTips();
+john.calcTips();
 console.log(john);
 
 console.log('==================================');
@@ -32,7 +32,7 @@ console.log('==================================');
 var mark = {
   name: 'Mark Marsh',
   bills: [77, 475, 110, 45],
-  calsTips: function() {
+  calcTips: function() {
     this.tips = [];
     this.finalAmount = [];
     for (var i = 0; i < this.bills.length; i++) {
@@ -54,7 +54,7 @@ var mark = {
   }
 }
 
-mark.calsTips();
+mark.calcTips();
 console.log(mark);
 
 
